@@ -8,10 +8,11 @@ Para os testes utilizei a imagem do meu cachorro Isaac com consentimento do mesm
 ---
 
 ## Objetivo do Projeto
-
-Transformar uma imagem original em uma versão com uma quantidade inferior de cores que a original, preservando a estrutura visual, mas reduzindo significativamente a variedade de cores.
-
+<p>
+Transformar uma imagem original em uma versão com uma quantidade inferior de cores que a original, preservando a estrutura visual, mas reduzindo significativamente a variedade de cores. <br>
 Esse processo é parecido com o que alguns formatos de imagem fazem para comprimir arquivos usando paletas reduzidas.
+</p>
+
 ---
 
 ## Como foi feito
@@ -34,13 +35,16 @@ Esse processo é parecido com o que alguns formatos de imagem fazem para comprim
 O resultado final mostra a imagem recriada com a paleta reduzida.
 Cada ponto representa um pixel, colorido segundo o centro do cluster.
 
-> Imagem Original 
+> Imagem Original
+
 ![Original](https://github.com/VictorBertolini/Clusterizacao-de-imagem-com-KMeans/blob/main/images/Isaac.jpg)
 
 > K = 2
+
 ![K2](https://github.com/VictorBertolini/Clusterizacao-de-imagem-com-KMeans/blob/main/images/Isaac_k2.png)
 
 > K = 10
+
 ![K10](https://github.com/VictorBertolini/Clusterizacao-de-imagem-com-KMeans/blob/main/images/Isaac_k10.png)
 
 > K = 256
